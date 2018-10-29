@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>我的第一个网站</title>
+<style>
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+#a1{
+    margin-top:-1500px ;
+    margin-left: 200px;
+    width: 400px;
+    height: 200px;
+}
+#a2{
+    margin-top:-2000px ;
+    margin-left: 500px;
+    width: 400px;
+    height: 200px;
+}
+#a3{
+    margin-top:-1000px ;
+    margin-left: 500px;
+    width: 400px;
+    height:200px;
+}
+#a4{
+    margin-top:-1000px ;
+    margin-left: 600px;
+    width: 400px;
+    height: 200px;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+}
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+</style>
+</head>
+<body>
+        
+    
+<ul>
+  <li><a class="active" href="#home">主页</a></li>
+  <li><a href="#news">我的空间</a></li>
+  <li><a href="#contact">我的日志</a></li>
+  <li><a href="#about">关于社长如何找女友</a></li>
+</ul>
+
+<div style="margin-left:18%;padding:1px 16px;height:1000px;">
+  <h2>怎样才能找到一个女朋友？</h2>
+  <h3>有好看的女生介绍给社长</h3>
+  <p>从女生的角度来说，女孩子极少会自己主动去追求自己喜欢的男孩。除非确实喜欢到不行或者很有个性又很勇敢的女孩子。总之，遇到你超级喜欢的女孩子，你也觉得他对你有好感，那就动手吧。别磨磨唧唧的，自己孤独，搞不好你中意的人也难受。</p>
+  <p>所有女孩子在有人追的时候，心理肯定都是五味瓶的。可能很嗨森，不过也难免惊慌。对于打破自己安静生活的男孩子，有着想拒绝又想靠近的复杂心情，她不是特意的。不要认为他在观察你，她也要说服自己，她也会怕得到有失去。</p>
+  <p>不要怕你的热情会给她带去烦恼，你不约人家，人家也不约你，慢慢就是陌生人了。要是你怕一表白就拒绝，那不很正常吗？！不要放弃，没有人知道这个女孩到底怎么想的，就是她自己也说不出个所以然来。   </p>
+  
+
+
+
+
+
+  <p>Some text..</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<style>
+body 
+{
+	background-image:url(13.png);
+	background-color:#cccccc;
+}
+</style>
+</head>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+
+<style>
+img {
+    border-radius: 90%;
+}
+</style>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title></title>  
+<style>
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="http://static.runoob.com/images/demo/demo1.jpg">
+      <img src="http://static.runoob.com/images/demo/demo1.jpg" alt="图片文本描述" width="300" height="200"id="a1">
+    </a>
+    <div class="desc">这里添加图片文本描述</div>
+  </div>
+</div>
+ 
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="http://static.runoob.com/images/demo/demo2.jpg">
+      <img src="http://static.runoob.com/images/demo/demo2.jpg" alt="图片文本描述" width="300" height="200"id="a2">
+    </a>
+    <div class="desc">这里添加图片文本描述</div>
+  </div>
+</div>
+ 
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="http://static.runoob.com/images/demo/demo3.jpg">
+      <img src="http://static.runoob.com/images/demo/demo3.jpg" alt="图片文本描述" width="300" height="200"id="a3">
+    </a>
+    <div class="desc">这里添加图片文本描述</div>
+  </div>
+</div>
+ 
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="http://static.runoob.com/images/demo/demo4.jpg">
+      <img src="http://static.runoob.com/images/demo/demo4.jpg" alt="图片文本描述" width="300" height="200" id="a4">
+    </a>
+    <div class="desc">这里添加图片文本描述</div>
+  </div>
+</div>
+
+</body>
+</html>
